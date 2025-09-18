@@ -79,3 +79,27 @@ git status --help
 git remote --help
 git commit --help
 ```
+
+## Para ver el estado de los archivos
+
+```sh
+git status
+```
+
+## Para pasar del WD al SA (Preparando los archivos para crear commits)
+
+```sh
+git add . # todos los archivos.
+```
+
+## Para pasar del SA al LR (Hacer un commits)
+
+```sh
+git commit -m "mensaje descriptivo de la tarea hecha" 
+```
+
+## Para actualizar el repositorio remoto
+
+```sh
+git push
+```  
