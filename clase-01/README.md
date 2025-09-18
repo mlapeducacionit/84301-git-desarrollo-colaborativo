@@ -69,3 +69,13 @@ git log --oneline # versión corta
 * Staging Area (Area de control de cambios) Se agregan los archivos para darle seguimiento y posteriormente sacarles una foto (commit)
 
 * Local Repo (Area de validación de cambios, donde se registran las modificaciones realizadas) Donde van a estar todas las fotos (commit) que vaya sacando.
+
+
+## Ayuda comandos
+
+```sh
+git <comando> --help
+git status --help
+git remote --help
+git commit --help
+```
