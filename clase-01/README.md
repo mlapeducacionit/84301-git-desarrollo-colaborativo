@@ -46,4 +46,11 @@ git init
 
 ```sh
 git config --global init-defaultBranch main
-``` 
+```
+
+## Ver los commits generado (Timeline de commits)
+
+```sh
+git log # versión larga
+git log --oneline # versión corta
+```
