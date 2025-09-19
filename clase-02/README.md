@@ -34,3 +34,18 @@ git commit -am "Mensaje" # Se agregan los archivos modificados y no se abre el e
 ```
 
 **NOTA**: Los mensajes idealmente pueden tener máximo 80 caracteres.
+
+### Ver los commits dentro del repositorio
+
+```sh
+git log # largo con detalle
+git log --oneline # corto solo el mensaje
+git log -2 # Me muestra 2 commits del listado, los últimos 2
+git log --oneline -2 # corto solo el mensaje y solo 2 commits los últimos
+```
+
+### Ver la diferencia entre el working directory y el local repo
+
+```sh
+git diff
+```
