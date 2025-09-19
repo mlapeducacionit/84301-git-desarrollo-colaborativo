@@ -85,3 +85,10 @@ git switch feature/ramas
 git switch -c <nombre-rama>
 git switch -c feature/ramas
 ```
+
+## Comparar ramas entre si
+
+```sh
+git diff <rama-con-la-cual-quiero-hacer-la-comparación>
+git diff main
+```
