@@ -107,7 +107,7 @@ git config --global alias.c "commit -m"
 
 ```sh
 git config --get-regexp alias
-``` 
+```
 
 # Tipos de conflictos y como trabajarlos. (Merges)
 
