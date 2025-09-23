@@ -90,4 +90,17 @@ git commit --amend --no-edit # Evito cambiar el mensaje.
 git add --patch
 ```
 
+# Git alias
+
+# Crear un alias
+
+```sh
+git config --global alias.s "status"
+git config --global alias.sc "status --short"
+git config --global alias.ll "log"
+git config --global alias.l "log --oneline"
+git config --global alias.amend "commit --amend --no-edit"
+git config --global alias.c "commit -m"
+```
+
 
