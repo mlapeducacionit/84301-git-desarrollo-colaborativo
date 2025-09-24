@@ -7,3 +7,9 @@
 * Trabaja con una estructura de pila
 
 ![fifo-lifo](_ref/image.png)
+
+## Listar los stashes
+
+```sh
+git stash list
+```
