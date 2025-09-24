@@ -131,3 +131,17 @@ git tag -a v1.0 -m "Versión actual de la documentación"
 ```sh
 git tag --list
 ```
+
+## Subir al remoto los tags
+
+```sh
+git push origin --tags # No se recomiendo
+git push origin v1.0
+``` 
+
+## Borrar tags
+
+```sh
+git tag -d <nombre-tag>
+git tag -d v0.8
+```
