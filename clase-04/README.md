@@ -13,3 +13,17 @@
 ```sh
 git stash list
 ```
+
+## Crear un stash
+
+```sh
+git stash -m "Mensaje descriptivo"
+```
+
+## Ver contenido del stash
+
+```sh
+git stash show <identificador del stash>
+git stash show 0
+git stash show stash{0}
+```
