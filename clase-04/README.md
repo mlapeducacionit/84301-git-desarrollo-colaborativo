@@ -102,3 +102,32 @@ Normalmente cuando trabajo con Fork y Pull Request lo hago en proyectos Open Sou
 9. Subo a mi repositorio remoto (Fork) las actualizaciones del repo local
 
     git push origin <rama-a-actualizar>
+
+# Git TAGS
+
+## 2 tipos de punteros (referencias). Punteros (referencias) estáticos y los punteros dinamicos
+
+# Estáticos
+
+> Tags
+
+# Dinámicos
+
+> HEAD, Ramas
+
+## Crear un tags
+
+```sh
+git targ v1.0
+git tag  -a v0.8 -m "Versión no final" <hash>
+# Ejemplo de tag en un commit en especifico
+git tag  -a v0.8 -m "Versión no final" c616c7d
+# Ejemplo de tag en último commit
+git tag -a v1.0 -m "Versión actual de la documentación"
+```
+
+## Listar tags creados
+
+```sh
+git tag --list
+```
