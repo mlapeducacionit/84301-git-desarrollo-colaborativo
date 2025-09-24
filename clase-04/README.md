@@ -145,3 +145,17 @@ git push origin v1.0
 git tag -d <nombre-tag>
 git tag -d v0.8
 ```
+
+## Gist
+Compartir código, pasar snippets a otras personas o información que quiero compartir. Pueden tener varios archivos y sus revisiones
+
+<https://gist.github.com/>
+
+* SECRETOS -> Solo la persona que tenga el link va a poder verlo. No son privados. 
+* PÚBLICOS -> Se van indexar en los motores de búsqueda
+
+## Proyectos
+Son tableros visuales tipo Kanban donde podemos organizar y visualizar el progreso de nuestras tareas asociar tareas a resolución de issues.
+
+## Issues (Posibles problemas, solución de temas)
+Nos permiten tener un seguimiento sobre posibles bugs o errores en nuestras aplicaciones.
