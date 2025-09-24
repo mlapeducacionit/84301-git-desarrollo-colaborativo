@@ -49,3 +49,28 @@ git stash drop # Borra el stash de arriba de todo
 git stash drop 1 # stash@{1}
 git stash drop 2 # stash@{2}
 ```
+
+# Git resets
+Me permite deshacer commits. Hay 3 tipos
+
+## GIT RESET SOFT
+Me permite deshacer uno o varios commits y los cambios lo arroja al staging area (SA)
+
+```sh
+git reset --soft <hash>
+```
+
+## GIT RESET MIXED (default)
+Me permite deshacer uno o varios commits y los cambios los arroja al working directory (WD)
+
+```sh
+git reset <hash>
+git reset --mixed <hash>
+```
+
+## GIT RESET HARD
+Me permite deshacer uno o varios commits y los cambios los descarta (CUIDADO PIERDO LOS CAMBIOS SOBRE LOS ARCHIVOS)
+
+```sh
+git reset --hard <hash>
+```  
